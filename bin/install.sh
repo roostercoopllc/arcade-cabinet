@@ -2,6 +2,7 @@
 add-apt-repository universe
 apt update
 apt upgrade -y
+apt install curl -y
 
 ########################################################
 # Install Steam Components
