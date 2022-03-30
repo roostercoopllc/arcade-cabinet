@@ -21,20 +21,8 @@ apt install -y mame
 
 add-apt-repository ppa:mmbossoni-gmail/emu
 apt update
-apt install qmc2-sdlmame qmc2-arcade qmc2-data qchdman
+apt install qmc2-sdlmame qmc2-arcade qmc2-data qchdman -y
 apt update
 apt upgrade -y
 
-# Example of having to install specific rom repositories
-# echo "Installing NeoGeo Games"
-# wget https://archive.org/compress/neo-geo-aes-romset/formats=ZIP&file=/neo-geo-aes-romset.zip
-# echo "Unzipping the NeoGeo rompacks"
-# unzip neo-geo-aes-romset.zip -d /usr/local/share/games/mame/roms/
-
-# unzip downloaded pack
-# echo "Unzipping the rompacks"
-# unzip
-
-########################################################
-# Enable Auto Update weekly
-########################################################
+reboot
