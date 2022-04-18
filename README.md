@@ -16,3 +16,10 @@ Software:
 
 
 ## References
+1. []
+
+## Thanks yous
+[MAME Project](https://www.mamedev.org/)
+[Archive.org](https://archive.org)
+[Roms For Mame](https://romsformame.com)
+[ROMSPack](https://www.romspack.com)
