@@ -14,16 +14,11 @@ echo "Downloading and installing Steam Client"
 apt install -y steam 
 
 ########################################################
-# Install MAME Arcade Engine
+# Install RetroPie Arcade Engine
 ########################################################
 # downloading the packs I like from here: https://www.romspack.com/mame-roms-pack/ 
-echo "Installing MAME Arcade Engine and QMC2"
-apt install -y mame 
-
-add-apt-repository ppa:mmbossoni-gmail/emu
-apt update
-apt install qmc2-sdlmame qmc2-arcade qmc2-data qchdman -y
-apt update
-apt upgrade -y
-
-reboot
+echo "Installing RetroPie"
+apt install -y git dialog unzip xmlstarlet
+git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git /opt/retropie-setup
+mkdir -p /home/pi/RetroPie/roms
+/opt/retropie-setup/retropie_setup.sh
