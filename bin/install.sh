@@ -20,5 +20,4 @@ apt install -y steam
 echo "Installing RetroPie"
 apt install -y git dialog unzip xmlstarlet
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git /opt/retropie-setup
-mkdir -p /home/pi/RetroPie/roms
 /opt/retropie-setup/retropie_setup.sh
