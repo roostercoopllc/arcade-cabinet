@@ -14,6 +14,8 @@ unzip neo-geo-aes-romset.zip -d ~/RetroPie/roms/arcade
 
 curl http://www.romsformame.com/download/tmnt.zip -o ~/RetroPie/roms/arcade/tmnt.zip
 curl https://www.romsformame.com/download/bublbobl.zip -o ~/RetroPie/roms/arcade/bublbobl.zip 
+curl https://www.romsformame.com/download/xmvsf.zip -o ~/RetroPie/roms/arcade/xmvsf.zip
+curl https://www.romsformame.com/download/simpsons.zip -o ~/RetroPie/roms/arcade/simpsons.zip
 
 echo "Moving Configuration Files"
 cp ../resources/es_system.cfg ~/.emulationstation/es_system.cfg
